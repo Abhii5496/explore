@@ -14,7 +14,7 @@ const Hero = () => {
                 <h1 className='font-bold text-5xl md:text-7xl drop-shadow-2xl' >Mesmerizing Parts Of Nature</h1>
                 <p className='max-w-[600px] drop-shadow-2xl py-2 text-xl'> Natural Beuties to explore all around the world
                 </p>
-                <button className='bg-white text-black font-bold' >Explore Now</button>
+                <button className='bg-white text-black font-bold hover:scale-105 ' >Explore Now</button>
             </div>
         </div>
     </div>

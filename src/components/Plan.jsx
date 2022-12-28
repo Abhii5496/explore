@@ -6,11 +6,13 @@ const Plan = () => {
     <div className='max-w-[1400] px-4 py-16 lg:grid-cols-2 gap-4'>
     {/* // left  side */}
         <div className=' grid grid-cols-2 grid-rows-6 h-[80vh]'>
-            <img className='row-span-3 object-cover w-full h-full p-2'  src='https://images.pexels.com/photos/753626/pexels-photo-753626.jpeg?auto=compress&cs=tinysrgb&w=300' alt='img' />
+            <img className='row-span-3 
+             object-cover w-full h-full p-2'  src='https://images.pexels.com/photos/753626/pexels-photo-753626.jpeg?auto=compress&cs=tinysrgb&w=300' alt='img' />
             <img className='row-span-2 object-cover w-full h-full p-2'  src='https://images.pexels.com/photos/531602/pexels-photo-531602.jpeg?auto=compress&cs=tinysrgb&w=300' alt='img' />
             <img  className='row-span-2 object-cover w-full h-full p-2' src='https://images.pexels.com/photos/632522/pexels-photo-632522.jpeg?auto=compress&cs=tinysrgb&w=300' alt='img' />
             <img  className='row-span-3 object-cover w-full h-full p-2' src='https://images.pexels.com/photos/1478685/pexels-photo-1478685.jpeg?auto=compress&cs=tinysrgb&w=300' alt='img' />
-            <img  className='row-span-2 object-cover w-full h-full p-2' src='https://images.pexels.com/photos/3472764/pexels-photo-3472764.jpeg?auto=compress&cs=tinysrgb&w=300' alt='img' />
+            <img  className='row-span-2 
+            object-cover w-full h-full p-2' src='https://images.pexels.com/photos/3472764/pexels-photo-3472764.jpeg?auto=compress&cs=tinysrgb&w=300' alt='img' />
         </div>
 
         {/* right side */}
@@ -20,8 +22,8 @@ const Plan = () => {
         <p className='text-2xl py-6'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae excepturi ullam quis esse, quos assumenda laborum eum </p>
         <p className='pb-6'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae excepturi ullam quis esse, quos assumenda laborum eum </p>
         <div>
-            <button className='border-black mr-4 hover:shadow-xl'> Learn More</button>
-            <button className='bg-black text-white border-black hover:shadow-xl'> Book Your Trip</button>
+            <button className='border-black mr-4 hover:shadow-xl hover:scale-110'> Learn More</button>
+            <button className='bg-black text-white border-black hover:shadow-xl hover:scale-110'> Book Your Trip</button>
         </div>
         </div>
     </div>
