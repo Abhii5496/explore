@@ -17,8 +17,8 @@ const Navbar = () => {
 
   return (
     <div className='fixed z-50 w-full flex justify-between p-4 items-centrer'>
-        <h1 className=' text-white font-bold text-2xl z-20'>Explore</h1>
-        <HiMenuAlt3 onClick={handleNav} className='text-white cursor-pointer z-20 hover:scale-125' size={23}/>
+        <h1 className=' text-blue-700 font-bold text-2xl z-20'>Explore</h1>
+        <HiMenuAlt3 onClick={handleNav} className='text-blue-700 cursor-pointer z-20 hover:scale-125' size={23}/>
         <div className={
             nav 
             ?'ease-in duration-300 fixed text-gray-300 left-0 top-0 w-full h-screen bg-black/90 px-4 py-7 flex-col z-10'

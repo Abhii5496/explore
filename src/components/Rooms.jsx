@@ -11,9 +11,9 @@ const Rooms = () => {
         </div>
         
         <div className='grid grid-cols-2 col-span-2 gap-2'>
-            <img className='object-cover w-full h-full' src='https://images.pexels.com/photos/4825701/pexels-photo-4825701.jpeg?auto=compress&cs=tinysrgb&w=300' alt='/'/>
-            <img className='row-span-2 object-cover w-full h-full' src='https://images.pexels.com/photos/2417842/pexels-photo-2417842.jpeg?auto=compress&cs=tinysrgb&w=300' alt='/'/>
-            <img className='object-cover w-full h-full' src='https://images.pexels.com/photos/2598638/pexels-photo-2598638.jpeg?auto=compress&cs=tinysrgb&w=300' alt='/'/>
+            <img loading='lazy' className='object-cover w-full h-full' src='https://images.pexels.com/photos/4825701/pexels-photo-4825701.jpeg?auto=compress&cs=tinysrgb&w=300' alt='/'/>
+            <img loading='lazy' className='row-span-2 object-cover w-full h-full' src='https://images.pexels.com/photos/2417842/pexels-photo-2417842.jpeg?auto=compress&cs=tinysrgb&w=300' alt='/'/>
+            <img loading='lazy' className='object-cover w-full h-full' src='https://images.pexels.com/photos/2598638/pexels-photo-2598638.jpeg?auto=compress&cs=tinysrgb&w=300' alt='/'/>
         </div>
     </div>
   )

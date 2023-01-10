@@ -3,7 +3,7 @@ import React from 'react'
 const Hero = () => {
   return (
     <div  className='w-full h-screen'>
-        <img className='top-0 left-0 w-full h-screen object-cover' src='https://images.pexels.com/photos/732199/pexels-photo-732199.jpeg' alt='img'/>
+        <img loading='lazy' className='top-0 left-0 w-full h-screen object-cover' src='https://images.pexels.com/photos/732199/pexels-photo-732199.jpeg' alt='img'/>
 
 
         <div className='bg-black/50 absolute top-0 left-0 w-full h-screen'>
